@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Space+Grotesk&display=swap');
+
+body {
+    background: #ffffff;
+    color: #DEDEDE;
+    margin: 0%;
+}
+
+/*  шапка  */
+header {
+    padding-top: 29px;
+    padding-bottom: 20px;
+    background-color:  rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+.headerInner {
+    display: flex;
+    justify-content: space-between;
+    padding:0 10%;
+}
+
+.name img {
+    width: 46px;
+    height: 32px;
+    margin-right: 17px;
+}
+
+.name {
+    left: 17px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: -0.5px;
+
+    text-shadow: 0px 4px 4px rgba(202, 200, 200, 0.25);
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: -0.5px;
+
+    color: #000000;
+}
+
+a:hover {
+    color: rgb(102, 130, 229);
+}
+
+a:active {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+
+/*подвал*/
+
+footer {
+    border-top: 1px solid #000000;
+    backdrop-filter: blur(10px);
+}
+
+.footerInner {
+    /*padding: 50px 10%;*/
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    /* identical to box height, or 225% */
+
+    letter-spacing: -0.5px;
+
+    color: #000000;
+    padding-top: 48px;
+    padding-bottom: 36px;
+}
+
+.footerInner span {
+    color: #ECECEC;
+}
+
+.contact img {
+    width: 22px;
+    height: 22px;
+    padding-top: 49px;
+    margin-left: 17px;
+}
+
+
+/*main*/
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10%;
+}
+
+.info img {
+    padding-top: 100px;
+    padding-bottom: 243px;
+    padding-right: 100px;
+}
+
+.hi {
+    width: 500px;
+    height: 192px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    /* or 119% */
+
+    letter-spacing: -0.5px;
+    padding-bottom: 24px;
+}
+
+.hi2 {
+    width: 400px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: -0.5px;
+
+    color: #000000bc;
+    padding-bottom: 104px;
+}
+
+.hi4 {
+    color: #000000bc;
+
+    text-align: center;
+    font-family: 'Space Grotesk';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 146.154% */
+    letter-spacing: -0.5px;
+}
+
+.mybtn{
+	text-align: center; 
+	padding: 8px 10px; 
+	border: solid 1px #777777; 
+	color: #777777; 
+	background:#ffffff;
+	text-transform: uppercase;
+}
+.mybtn:not(:hover){
+	color: #000;
+    background-color: transparent !important;
+}
+.mybtn:hover {
+	color: #fff;
+	background: #000000;
+  }
+  .mybtn:active{
+	 color: #ffffff;
+  }
+
+.info button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px;
+    gap: 16px;
+
+    background: #000000;
+    border-radius: 4px;
+
+    width: 276px;
+    height: 57px;
+}
+
+.info button img {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 0px;
+}
+
+.info button p {
+
+    width: 143px;
+    height: 25px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    padding-left: 150px;
+    gap: 32px;
+
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    opacity: 0.7;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.hi3 {
+    color: #000000db;
+
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+
+/*бургер меню*/
+.menu_small_icon{
+    display: none;
+}
+
+.stick {
+    width: 80%;
+    height: 5px;
+    background: white;
+}
+
+.menu_small_item {
+    display: none;
+}
+
+
+@media (max-width: 650px) {
+    .headerInnerv {
+        display: none;
+    }
+
+    .name {
+        padding-left: 10px;
+    }
+
+    .menu-small {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        background: black;
+        transform: translateX(-100%);
+    }
+
+    .menu_small_item {
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu_small_icon {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        z-index: 1;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .inner {
+        padding-top: calc(50px + 2em);
+    }
+
+    .inner p {
+        margin: 0
+    }
+}
